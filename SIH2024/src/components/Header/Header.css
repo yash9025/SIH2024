@@ -1,0 +1,15 @@
+/* Default styling for the header */
+.header {
+    height: 90px; /* adjust the height as needed */
+    background-color: #fcf6dc; /* adjust the background color as needed */
+    padding: 18px; /* adjust the padding as needed */
+    text-align: center; /* adjust the text alignment as needed */
+  }
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 768px) {
+    header {
+      height: 70px; /* reduce the height for smaller screens */
+      padding: 10px; /* reduce the padding for smaller screens */
+    }
+  }

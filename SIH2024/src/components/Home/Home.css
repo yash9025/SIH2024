@@ -1,0 +1,227 @@
+main {
+  background-image: url('https://cdn.pixabay.com/photo/2017/03/13/07/34/photovoltaic-2138992_1280.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* .imgBack{
+  background-image: url("https://cdn.pixabay.com/photo/2017/03/13/07/34/photovoltaic-2138992_1280.jpg");
+} */
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1050px;
+    word-break: break-word;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.animate-header {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+    animation: slide-in 1s ease-in-out;
+  }
+  
+.animate-paragraph {
+  font-size: 18px;
+  color: #2d2c2c;
+  text-align: center;
+  margin-bottom: 30px;
+    animation: fade-in 2.1s ease-in-out;
+}
+
+@keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes bounce-in {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.button {
+    padding: 15px 30px;
+    background-color: #ff7f00; /* Orange color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: fade-in 2.1s ease-in-out; /* Add a smooth transition */
+}
+
+.button:hover {
+    background-color: #d99a35; /* Darker orange on hover */
+}
+
+.map {
+  
+  width: 100%;
+  padding: 50px 0;
+  animation: slide-in 1s ease-in-out;
+}
+
+.containerMap img {
+max-width: 400px; /* or any other value you prefer */
+height: auto;
+}
+
+.map-container {
+justify-content: center;
+  width: 400px;
+  position: relative;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.description {
+  /* Add a max-width and padding to create a readable width */
+  max-width: 1000px;
+  padding: 20px;
+  margin: 40px auto;
+  background-color: #fcf6dc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.para {
+  /* Add some typography styles */
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  font-weight: 400;
+  text-align: justify;
+}
+
+/* Add some spacing between paragraphs */
+.para + .para {
+  margin-top: 20px;
+}
+
+/* Add a subtle text highlight effect on hover */
+.para:hover {
+  background-color: #d97f47;
+  transition: background-color 0.3s;
+}
+
+.companies {
+  border-radius: 10px;
+    padding: 50px 0;
+}
+
+
+
+.container{
+  color: white;
+  padding: 25px;
+}
+
+.containerCompanies {
+  border-radius: 10px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fcf6dc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.companies h2 {
+    padding: 20px;
+    text-align: right;
+    margin-bottom: 50px;
+    animation: fade-in 2.1s ease-in-out;
+}
+
+
+.company-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: right;
+    gap: 20px;
+}
+
+.company-card {
+    grid-column: span 1;
+    background-color: #303032;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.company-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+.company-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+   
+
+
+/* .card {
+    animation: fade-in 1s ease-in-out;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  } */
+
+
+
